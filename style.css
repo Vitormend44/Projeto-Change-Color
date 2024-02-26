@@ -76,6 +76,44 @@ body {
     border:3px solid yellow;
 }
 
+@media (max-width: 680px){
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .box-color {
+        width: 250px;
+        height: 300px;
+        margin-top: 20%;
+        display: grid;
+        gap: 1px;
+    }
+
+    .button {
+        height: 60px;
+        width: 60px;
+        font-size: 13px;
+    }
+
+    #Red {
+        border:2px solid red;
+    }
+    
+    #Blue {
+        border:2px solid blue;
+    }
+    
+    #Yellow {
+        border:2px solid yellow;
+    }
+    
+}
+
 
 
 
